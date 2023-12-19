@@ -167,7 +167,7 @@ h6 {
   padding: 40px 5% 0;
   flex-shrink: 0;
   align-items: flex-start;
-  background-color: #F7FDFC;
+  background-color: #f7fdfc;
   justify-content: center;
   align-items: stretch;
   gap: 40px;
@@ -176,7 +176,6 @@ h6 {
 section.left-side {
   padding-inline: 5%;
   margin-top: 100px;
-  
 
   > h2 {
     font-family: "Brown", sans-serif;
@@ -220,7 +219,7 @@ section.left-side {
 
     > a {
       text-decoration-line: underline;
-      color: 	hsl(174, 62%, 47%);
+      color: hsl(174, 62%, 47%);
       font-weight: 500;
     }
   }
@@ -242,8 +241,6 @@ section.left-side {
       padding-block: 10.4px;
       padding-inline-start: 16px;
       padding-inline-end: 16px;
-      
-      
     }
   }
 }
@@ -263,13 +260,12 @@ button {
   width: 100%;
   padding-block: 10.4px;
   margin-block-end: 16px;
-  background-color: 	hsl(174, 62%, 47%);
+  background-color: hsl(174, 62%, 47%);
   border-radius: 2px;
   border: 1px solid #f0f0f0;
   color: white;
-  filter: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0.1)); 
+  filter: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0.1));
 }
-
 
 @media (max-width: 375px) {
   .wrapper {
@@ -277,13 +273,12 @@ button {
   }
   .big-screen {
     display: none;
-}
-/* Show mobile content */
+  }
+  /* Show mobile content */
   .small-screen {
     display: block;
     width: 327px;
-    
-}
+  }
   section.left-side {
     margin-top: 40px;
     width: 100%;
@@ -293,7 +288,7 @@ button {
     width: 100%;
   }
 
-   .card {
+  .card {
     max-width: 327px;
   }
 
@@ -302,16 +297,16 @@ button {
   }
 }
 
-@media (min-width: 375px){
+@media (min-width: 375px) {
   .small-screen {
     display: none;
-}
-/* Show mobile content */
+  }
+  /* Show mobile content */
   .big-screen {
     display: block;
     max-width: 460px;
-}
-  .right-side{
+  }
+  .right-side {
     width: 50%;
   }
 }
@@ -361,8 +356,9 @@ button {
   pointer-events: none;
 }
 
-input,select:focus {
-  outline-color: #2EC4B6;
+input,
+select:focus {
+  outline-color: #2ec4b6;
 }
 
 select:required:invalid {
