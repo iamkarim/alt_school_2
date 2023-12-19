@@ -267,7 +267,7 @@ button {
   filter: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0.1));
 }
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
   .wrapper {
     flex-direction: column;
   }
@@ -297,7 +297,7 @@ button {
   }
 }
 
-@media (min-width: 375px) {
+@media (min-width: 500px) {
   .small-screen {
     display: none;
   }
